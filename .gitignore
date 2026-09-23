@@ -1,0 +1,28 @@
+# Data and results (see data/README.md)
+data/*
+!data/README.md
+
+# Large genomics files
+*.rds
+*.RData
+*.rda
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.mtx
+*.mtx.gz
+*.fa
+*.fa.fai
+*.fasta
+*.gtf
+*.gtf.gz
+*.bed.gz
+
+# R / IDE
+.Rhistory
+.Rproj.user/
+*.Rproj
+.DS_Store
+Thumbs.db
